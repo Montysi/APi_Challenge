@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.movieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+}
+
+.movieWrapper {
+  text-align: center; 
+  flex: 1 1 calc(25% - 32px);
+  box-sizing: border-box;
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; 
+}
